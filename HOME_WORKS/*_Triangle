@@ -1,0 +1,20 @@
+<?php
+$i=0; //broi na * na4alen
+$j=11; //daljina na reda 
+$k=0; // koeficient
+
+while($i < 11 ) {
+    $j=11; $k=0;
+
+    while($j > $i){
+        echo " ";
+        $j--;
+    }
+    while($k <= $i){
+        echo '*';
+        ++$k;
+    }
+    echo "<br/>";
+    $i+++$i++;
+}
+?>
